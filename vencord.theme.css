@@ -1,0 +1,27 @@
+    /**
+    * @name Nocturne
+    * @author @Alex-Ri
+    * @version 0.1.0
+    * @description Nocturne Omarchy theme for Discord.
+    * @source https://github.com/Alex-Ri/nocturne.nvim
+    **/
+    @import url("https://imbypass.github.io/base16-discord/omarchy-discord.theme.css");
+
+    :root {
+        --color00: #1B1B1B;
+        --color01: #1B1B1B;
+        --color02: #262626;
+        --color03: #9A9D9A;
+        --color04: #D8DEE9;
+        --color05: #D8DEE9;
+        --color06: #E5E9F0;
+        --color07: #D8DEE9;
+        --color08: #D74E42;
+        --color09: #D08770;
+        --color10: #A3BE8C;
+        --color11: #EBCB8B;
+        --color12: #8FBCBB;
+        --color13: #5E81AC;
+        --color14: #B48EAD;
+        --color15: #A3BE8C;
+    }

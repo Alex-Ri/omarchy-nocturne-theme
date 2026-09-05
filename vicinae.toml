@@ -1,0 +1,32 @@
+[meta]
+version = 1
+name = "Nocturne"
+description = "Follow your Nocturne Omarchy theme."
+variant = "dark"
+inherits = "vicinae-dark"
+icon = "/home/sero/.local/share/omarchy/icon.png"
+
+[colors.core]
+background = "#1B1B1B"
+foreground = "#D8DEE9"
+secondary_background = "#222222"
+border = "#9A9D9A"
+accent = "#5E81AC"
+
+[colors.list.item.hover]
+background = "#262626"
+foreground = "#D8DEE9"
+
+[colors.list.item.selection]
+background = "#2E2E2E"
+foreground = "#D8DEE9"
+
+[colors.accents]
+blue = "#5E81AC"
+green = "#A3BE8C"
+magenta = "#B48EAD"
+orange = "#D08770"
+purple = "#B48EAD"
+red = "#D74E42"
+yellow = "#EBCB8B"
+cyan = "#8FBCBB"
