@@ -38,6 +38,12 @@ Included in `backgrounds/`:
 - `nocturne-night.jpg` — moody night photo
 - `nocturne-stars.jpg` — 4K starry sky
 
+Live wallpapers in `videos/`:
+
+- `mist-over-the-pines.3840x2160.mp4` — misty pines, 4K
+
+Video playback requires the omarchy-shell patch (see below).
+
 ## What's themed
 
 - Hyprland (window borders, rounded corners, gaps, animations) via `hyprland.conf`
@@ -66,6 +72,18 @@ from a git repo: `*.lua`, terminal configs (`alacritty.toml`, `foot.ini`,
 
 If you install by hand (placing this folder in
 `~/.config/omarchy/themes/nocturne/`), every file is kept as-is.
+
+## Live wallpapers
+
+Stock Omarchy only shows static images. To play the videos in `videos/` (or any
+`*.mp4`/`*.webm`/`*.mkv`/`*.mov` background), patch `omarchy-shell`:
+
+- `Background.qml` needs a `Video` layer that activates when the selected
+  background path is a video file (`/usr/share/omarchy/shell/plugins/background/Background.qml`).
+- The background picker needs a patch so it lists `videos/` alongside
+  `backgrounds/` (`omarchy-menu-images`).
+
+The patch is not part of this repo — it's your system-level customization.
 
 ## Credits
 
