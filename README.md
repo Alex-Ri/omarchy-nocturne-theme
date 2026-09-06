@@ -31,6 +31,13 @@ and paste the repo URL above.
 | Magenta | muted mauve | `#B48EAD` |
 | Muted/comment | gray | `#9A9D9A` |
 
+## Backgrounds
+
+Included in `backgrounds/`:
+
+- `nocturne-night.jpg` — moody night photo
+- `nocturne-stars.jpg` — 4K starry sky
+
 ## What's themed
 
 - Hyprland (window borders, rounded corners, gaps, animations) via `hyprland.conf`
