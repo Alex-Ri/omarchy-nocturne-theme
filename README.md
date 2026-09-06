@@ -4,6 +4,10 @@ A calm, minimal dark theme for Omarchy, derived from the
 [nocturne.nvim](https://github.com/Alex-Ri/nocturne.nvim) colorscheme for
 Neovim. Built for readability, subtle contrast, and a distraction-free desktop.
 
+## Screenshot
+
+![Nocturne desktop](screenshots/nocturne-desktop.png)
+
 ## Installation
 
 ```bash
