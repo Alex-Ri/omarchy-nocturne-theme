@@ -6,10 +6,10 @@ $os\
 $username\
 [](bg:color_steel fg:color_blue)\
 $directory\
-[](fg:color_steel bg:color_green)\
+[](fg:color_steel bg:color_bg1)\
 $git_branch\
 $git_status\
-[](fg:color_green bg:color_blue2)\
+[](fg:color_bg1 bg:color_blue)\
 $c\
 $cpp\
 $rust\
@@ -21,11 +21,10 @@ $java\
 $kotlin\
 $haskell\
 $python\
-[](fg:color_blue2 bg:color_steel)\
+[](fg:color_blue bg:color_bg1)\
 $docker_context\
 $conda\
 $pixi\
-[](fg:color_steel bg:color_bg1)\
 $time\
 [ ](fg:color_bg1)\
 $line_break$character"""
@@ -93,12 +92,12 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:color_aqua"
-format = '[[ $symbol $branch ](fg:color_fg0 bg:color_aqua)]($style)'
+style = "bg:color_bg1"
+format = '[[ $symbol $branch ](fg:color_fg0 bg:color_bg1)]($style)'
 
 [git_status]
-style = "bg:color_aqua"
-format = '[[($all_status$ahead_behind )](fg:color_fg0 bg:color_aqua)]($style)'
+style = "bg:color_bg1"
+format = '[[($all_status$ahead_behind )](fg:color_fg0 bg:color_bg1)]($style)'
 
 [nodejs]
 symbol = ""
@@ -157,16 +156,16 @@ format = '[[ $symbol( $version) ](fg:color_white bg:color_blue)]($style)'
 
 [docker_context]
 symbol = ""
-style = "bg:color_bg3"
-format = '[[ $symbol( $context) ](fg:color_white bg:color_bg3)]($style)'
+style = "bg:color_bg1"
+format = '[[ $symbol( $context) ](fg:color_white bg:color_bg1)]($style)'
 
 [conda]
-style = "bg:color_bg3"
-format = '[[ $symbol( $environment) ](fg:color_white bg:color_bg3)]($style)'
+style = "bg:color_bg1"
+format = '[[ $symbol( $environment) ](fg:color_white bg:color_bg1)]($style)'
 
 [pixi]
-style = "bg:color_bg3"
-format = '[[ $symbol( $version)( $environment) ](fg:color_white bg:color_bg3)]($style)'
+style = "bg:color_bg1"
+format = '[[ $symbol( $version)( $environment) ](fg:color_white bg:color_bg1)]($style)'
 
 [time]
 disabled = false
