@@ -61,12 +61,15 @@ from a git repo: `*.lua`, terminal configs (`alacritty.toml`, `foot.ini`,
 `kitty.conf`, `ghostty.conf`) and `vscode.json`. Those are regenerated from
 `colors.toml` instead. This means:
 
-- **Rounded corners** come from the theme's `hyprland.conf`. After installing,
-  source it from your config (e.g. add to `~/.config/hypr/hyprland.lua`):
+- **The Hyprland look** (rounded corners, gaps, bar blur, translucent
+  terminals/apps, animations) lives entirely in the theme's `hyprland.conf` so
+  it survives git installs. It is *not* auto-loaded — source it from your
+  config after installing. Add this to `~/.config/hypr/hyprland.lua`:
   ```lua
-  -- require your theme's hyprland.conf for the Nocturne look
+  hl.exec_cmd("source = " .. os.getenv("XDG_CONFIG_HOME") .. "/omarchy/themes/nocturne/hyprland.conf")
   ```
-  or copy the `hyprland.conf` values into `~/.config/hypr/looknfeel.lua`.
+  or append `source = ~/.config/omarchy/themes/nocturne/hyprland.conf` to your
+  `~/.config/hypr/hyprland.conf`.
 - **Neovim**: the `neovim.lua` is regenerated from the default template. To use
   `nocturne.nvim`, install the plugin and set the colorscheme in your LazyVim
   config.
