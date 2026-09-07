@@ -50,6 +50,7 @@ Video playback requires the omarchy-shell patch (see below).
 - Omarchy shell and menus (from `colors.toml`)
 - Neovim (uses `nocturne.nvim` — see notes below)
 - Terminals: Alacritty, Foot, Kitty, Ghostty
+- Starship (prompt palette and layout via `starship.toml`)
 - GTK, btop, cava, mako, wofi/walker launchers, SwayOSD
 - Chromium, Discord (Vencord), Warp, Vicinae, Superfile
 
